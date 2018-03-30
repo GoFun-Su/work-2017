@@ -1,0 +1,27 @@
+.header{
+	height: 65px;
+	width: 100%;
+	background: #55BAB7;
+}
+a{
+	font-style: "Microsoft YaHei";
+}
+.logo{
+	width: 200px;
+	height: 65px;
+	float: left;
+	margin-left: 20px;
+	padding: 8px 10px 0 10px;
+}
+.navbar-nav a{
+	font-size: 16px;
+	color: #fff;
+	width: 110px;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 35px!important;
+}
+.navbar-nav a:hover{
+	background: #90D8D8;
+}

@@ -1,0 +1,151 @@
+label{
+	font-size: 16px;
+	font-weight: normal!important;
+}
+.btn.active, .btn:active,.btn:hover,
+.btn:hover, .btn:focus, .focus.btn{
+	color: #fff!important;
+}
+#loginform{
+	width:500px;
+	margin: 100px  auto;
+	
+}
+.form-control{
+	height: 58px!important;
+	background: #f2f2f2!important;
+}
+.getCode{//按钮父级
+	position:relative;
+	z-index:20;
+}
+.code{
+	background: #ea5947;
+	color: #fff;
+	height: 57px;
+	font-size: 16px!important;
+	margin-top: 20px;
+	padding: 8px 64px!important;
+}
+.makeImage{
+	/*display:block;*/
+	position:absolute;
+	top:77px;
+	right:-17px;
+	background:white;
+	border:1px solid #ccc;
+	width:212px;
+}
+.makeImage>div+div>span{
+	padding-left:16px;
+}
+.makeImage>div>input{
+	width:26%;
+}
+.makeImage>div>img{
+	padding-top:5px;
+	padding-left:5px;
+	width:46%;
+}
+.changeImage{
+	font-size:12px;
+	color:gray;
+}
+.inputCode{
+	margin-left: -15px;
+	margin-bottom: 30px;
+	z-index:20;
+}
+.inputCode,.getCode{
+	float: left;
+}
+.form-control::-webkit-input-placeholder{
+	font-size: 16px;
+}
+/* 火狐浏览器 */
+.form-control::-moz-placeholder{
+ 	font-size: 16px;
+}
+.subRegister{
+	width: 100%;
+    font-size: 18px!important;
+    height: 58px;
+    color: #fff;
+    margin-top:20px;
+    background: #ea5947;
+}
+
+/******注册步骤二样式*********/
+#combobox{
+	width: 100%;
+	height:58px;
+}
+.sex{
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	line-height: 40px;
+}
+.checkbox-inline{
+	font-size: 16px;
+}
+.boy{
+	padding-left: 0 !important;
+}
+.girl{
+	margin-left: 200px;
+}
+.ui-autocomplete-input{
+	width: 100%;
+	height: 58px;
+	font-size: 16px;
+	padding-left: 10px;
+	color: #9999AF;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #F2F2F2;
+}
+#checkAuthImageBtn{
+	width:40px;
+	height:23px;
+	text-align:center;
+	line-height:23px;
+	background:#ea5947;
+	display:inline-block;
+	cursor:pointer;
+}
+#checkAuthImageBtn:hover{
+	color:white;
+}
+.telephoneParent{
+	position:relative;
+}
+.telephoneParent span{
+	position:absolute;
+	bottom:-24px;
+	opacity:0.6;
+}
+.passwordParent{
+	position:relative;
+}
+.passwordParent span{
+	position:absolute;
+	bottom:-24px;
+	opacity:0.6;
+}
+.respasswordParent{
+	position:relative;
+}
+.respasswordParent span{
+	position:absolute;
+	bottom:-24px;
+	opacity:0.6;
+}
+#usernameparent{
+	position:relative;
+}
+#usernameparent span{
+	position:absolute;
+	bottom:-24px;
+	opacity:0.6;
+}

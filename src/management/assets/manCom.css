@@ -1,0 +1,28 @@
+.demo-ruleForm{
+	width: 500px;
+	margin: 50px auto;
+}
+.el-button--primary,
+.el-button--primary.is-active, 
+.el-button--primary:active,
+.el-button--primary:focus, 
+.el-button--primary:hover{
+	color: #fff;
+	background-color: #55BAB7;
+    border-color: #55BAB7; 
+}
+.el-button--default:active,
+.el-button--default:hover,
+.el-button--default:focus{
+	color:#55BAB7;
+	border-color: #55BAB7;
+}
+.el-radio__input.is-checked .el-radio__inner,
+.el-checkbox__input.is-checked .el-checkbox__inner{
+	background-color: #55BAB7;
+    border-color: #55BAB7; 
+}
+.el-radio__inner:hover,
+.el-checkbox__inner:hover{
+	border-color: #55BAB7;
+}

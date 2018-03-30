@@ -1,0 +1,118 @@
+.book-container {
+    width: 1170px;
+    margin: 40px auto 0;
+}
+.el-dropdown {
+    float: right;
+    border-radius: 100%;
+    margin-right: 20px;
+    font-size: 20px;
+    bottom: 50px;
+}
+.logo {
+    width: 180px!important;
+    height: 55px!important;
+}
+
+.navbar-nav a {
+    line-height: 65px !important;
+}
+.demo-input-size input {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.left,
+.right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left {
+    width: 300px;
+    height: 200px;
+    min-height: 150px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.left img {
+    width: 302px;
+    height: 202px;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    border: none;
+    border: 0;
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+.right {
+    width: 150px;
+    margin-left: 30px;
+}
+
+button {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+}
+
+.right p {
+    margin-top: 10px;
+    color: #999;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+}
+.el-pagination{
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+img {
+    font-size: 0;
+    display: block;
+     width: 100%;
+    height: 100%;
+}
+ .el-dialog--small {
+    width: 30%;
+}
+
+.el-dialog__header {
+    border: 1px solid #f2f2f2;
+    padding-bottom: 10px;
+}
+
+ .el-dialog__footer {
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.el-button + .el-button {
+    margin-left: 50px;
+}
+
+ .el-dialog__body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.el-icon-more:before{
+    color: #999;
+}
+.el-tooltip__popper.is-light{
+    width: 320px;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid #666;
+    color: #666;
+}
